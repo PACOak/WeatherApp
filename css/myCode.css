@@ -1,0 +1,91 @@
+#top {
+	border-radius: 10px;
+	text-align: center;
+	border-width:8px;	
+    border-style:outset;
+	border-color:#1EAB1E;
+	background-color:#0E890E;
+}
+
+#middle {
+	border-radius: 10px;
+	text-align: center;
+	border-width:8px;	
+    border-style:outset;
+	border-color:#1EAB1E;
+	background-color:#0E890E;
+}
+
+#bottom {
+	border-radius: 10px;
+	text-align: center;
+	border-width:8px;	
+    border-style:outset;
+	border-color:#1EAB1E;
+	background-color:#0E890E;
+}
+
+#temp {
+	border-radius: 5px 15px;
+	border-width:8px;	
+    border-style:inset;
+	border-color:#1EAB1E;
+	background-color:#42B842;
+}
+
+#icon {
+	border-radius: 5px 15px;
+	border-width:8px;	
+    border-style:inset;
+	border-color:#1EAB1E;
+	background-color:#42B842;
+}
+
+#color {
+	border-radius: 5px 15px;
+	border-width:8px;	
+    border-style:inset;
+	border-color:#1EAB1E;
+	height:auto;
+}
+
+#description {
+	border-radius: 15px 5px;
+	border-width:8px;	
+    border-style:inset;
+	border-color:#1EAB1E;
+	background-color:#42B842;
+}
+
+#asof {
+	border-radius: 15px 5px;
+	border-width:8px;	
+    border-style:inset;
+	border-color:#1EAB1E;
+	background-color:#42B842;
+}
+
+#sunUp {
+	border-radius: 15px 5px;
+	border-width:8px;	
+    border-style:inset;
+	border-color:#1EAB1E;
+	background-color:yellow;
+}
+#sunDown {
+	border-radius: 15px 5px;
+	border-width:8px;	
+    border-style:inset;
+	border-color:#1EAB1E;
+	background-color:orange;
+}
+
+#city {
+	color:yellow;
+}
+
+#zipInput {
+	border-radius: 15px;
+	background-color:blue;
+	color:white;
+}

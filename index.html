@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Weather</title>
+  <meta name="description" content="The Weather">
+  <meta name="author" content="Paco">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+-->
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/weather.css">
+  <link rel="stylesheet" href="css/myCode.css">
+  
+</head>
+<body>
+	
+	<div class="container">
+		<div id="top" class="row">
+		
+			<div id="temp" class="four columns"></div>
+			<div class="four columns">
+				<img id="icon"></img>
+			</div>
+			<div id="color" class="four columns">color for temp</div>			
+			
+		</div>
+		
+		<div id="middle" class="row">
+			<div class="six columns">
+			
+					<input type="number"
+							name="zipText"
+							placeholder="zip code"
+							id="zipInput"
+							maxlength="5"
+							minlength="5"
+							autofocus/>
+					<button class="button-primary"
+							type="submit"
+							id="submit"
+							onclick="submitFunction()"
+							>
+							Get Weather
+							</button>
+				
+			</div>
+			
+			<div class="six columns">
+				<h1 id="city"></h1>
+			</div>
+			
+		</div>
+		
+		<div id="bottom" class="row">
+			<div class="eight columns">
+				<p id="description"></p>
+				<p id="asof"></p>
+			</div>
+			<div class="four columns">
+				<p id="sunUp"></p>
+				<p id="sunDown"></p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/main.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
